@@ -193,7 +193,8 @@ h2 {
 @media (max-width: 750px) {
     header {
         height: auto;
-        padding: 10px 0;
+        padding: 25vh 0 10px 0;
+        padding-top: 30vh;
     }
 
     #navbar ul {
@@ -227,4 +228,3 @@ h2 {
         gap: 15px;
     }
 }
-
