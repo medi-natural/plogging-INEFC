@@ -75,6 +75,8 @@ header {
 #esdeveniment {
     height: 90vh;
     background-image: url('img/Plogga-main.jpg');
+    background-size: cover;
+    background-position: center;
     padding-top: 20vh;
     padding-bottom: 10vh;
     display: flex;
@@ -82,12 +84,16 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    color: white;
 }
 
 .main-header {
     font-size: 10vh;
     padding: 2rem;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 #quan {
@@ -96,6 +102,8 @@ header {
     padding: 10px 0;
     width: 100%;
     display: inline-block;
+    position: relative;
+    z-index: 1;
 }
 
 /* COLORS PER SECCIÓ */
