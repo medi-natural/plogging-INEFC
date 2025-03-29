@@ -74,7 +74,7 @@ header {
 /* SECCIONS */
 #esdeveniment {
     height: 90vh;
-    background: var(--blau-principal);
+    background-image: url('img/Plogga-main.jpg');
     padding-top: 20vh;
     padding-bottom: 10vh;
     display: flex;
