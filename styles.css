@@ -57,7 +57,7 @@ header {
 #navbar ul li a {
     display: block;
     padding: 8px 12px;
-    font-size: 1rem;
+    font-size: 0.8vw;
     text-decoration: none;
     color: var(--text-blanc);
     background: var(--links);
