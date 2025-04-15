@@ -214,7 +214,10 @@ h2 {
         padding-top: 30vh;
     }
 
-    .text {
+    .text,
+    .list,
+    .list li,
+    .sublist li {
         font-size: 1rem;
     }
 
@@ -227,4 +230,26 @@ h2 {
         flex-direction: column;
         gap: 15px;
     }
+}
+
+.list {
+    display: table;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: left;
+}
+
+.list li,
+.sublist li {
+    list-style-position: inside;
+    color: var(--text-gris);
+    font-size: 1.8vh; /* mateix que .text */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sublist {
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 5px;
 }
